@@ -1,1 +1,6 @@
-npm test
+> clone-oh@0.1.0 format
+> npx @biomejs/biome format --write ./src
+> lint-staged
+> git-format-staged --formatter 'biome check --files-ignore-unknown=true --no-errors-on-unmatched \"{}\"' .
+> git-format-staged --formatter 'biome check --write --files-ignore-unknown=true --no-errors-on-unmatched \"{}\"' .
+> Formatted 21 files in 4ms. No fixes applied.
